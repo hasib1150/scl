@@ -1,0 +1,33 @@
+.ckt {
+	background: linear-gradient(-45deg, #44EDD9, #28EDD6, #BBF546, #B421D9);
+	background-size: 300%;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 3s ease-in-out infinite;
+	-moz-animation: animated_text 3s ease-in-out infinite;
+	-webkit-animation: animated_text 3s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+@font-face {
+    font-family: hasib; 
+    src : url(font/font.ttf) format("truetype")
+    
+}
+@font-face {
+    font-family: font2; 
+    src : url(font/font2.ttf) format("truetype")
+    
+}
+@font-face {
+    font-family: title;
+    src: url(font/font3.ttf) format("truetype")
+}
+.orx{
+    font-family:hasib;
+}
